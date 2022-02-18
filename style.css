@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(243, 220, 11);
+}
+
+#score {
+    font-size: 28px;
+    color: blue;
+    float: left;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+#timer {
+    font-size: 28px;
+    color: blue;
+    float: right;
+    margin-right: 100px;
+    font-weight: 600;
+}
+
+#sketch_to_be_drawn {
+    color: rgb(224, 10, 124);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(124, 3, 34);
+    font-weight: 600;
+    background-color: rgb(242, 243, 170);
+}
+
+#show_sketch {
+    font-size: 23;
+    float: right;
+    margin-right: 20px;
+}
+
+#your_sketch {
+    color: rgb(12, 92, 146);
+    font-size: 26px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#confidence {
+    color: rgb(12, 92, 146);
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px rgb(28, 7, 224);
+    box-shadow: 1px 1px 38px #e505ec;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family:cursive;
+    font-size:25px;
+    font-weight: 700;
+  }
